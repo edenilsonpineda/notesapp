@@ -1,10 +1,10 @@
 #!/bin/sh
 
 echo "Updating and installing Docker"
-sudo apt update -y
-sudo apt upgrade -y
+sudo yum update -y
+sudo yum upgrade -y
 
-sudo apt remove -y docker \
+sudo yum remove -y docker \
     docker-client \
     docker-client-latest \
     docker-common \
@@ -13,11 +13,13 @@ sudo apt remove -y docker \
     docker-logrotate \
     docker-engine
 
+sudo yum install -y yum-utils
+
 sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 
-sudo apt install docker-ce docker-ce-cli containerd.io
+sudo yum install docker-ce docker-ce-cli containerd.io
 
 echo "Starting and enabling Docker"
 sudo systemctl start docker
