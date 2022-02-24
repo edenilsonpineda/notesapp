@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d92f7d52-c3d6-427c-a2ff-994e541a8b2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/note_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/note_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/note_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_dump/db_setup_centos.sh" beforeDir="false" afterPath="$PROJECT_DIR$/db_dump/db_setup_centos.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_dump/db_setup_ubuntu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/db_dump/db_setup_ubuntu.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
