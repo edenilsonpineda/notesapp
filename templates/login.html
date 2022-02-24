@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="columns is-desktop">
+  <div class="column"></div>
+  <div class="column is-half-desktop">
+    <h2 class="is-size-3">Inicia Sesion.</h2>
+
+    <form id="sign_up" method="post" action="{{ url_for('log_in') }}">
+      <div class="field">
+        <label id="lblUsername" class="label" for="username">Usuario</label>
+        <div class="control">
+          <input class="input" name="username" id="username" required type="text"/>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="password">Contrase&ntilde;a</label>
+        <div class="control">
+          <input name="password" type="password" id="password" class="input" required/>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <input type="submit" value="Iniciar sesion" class="button is-link" />
+        </div>
+        <div class="control">
+          <a href="{{ url_for('sign_up') }}" class="button is-text">
+            ¿No tienes una cuenta? Registrate.
+          </a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column"></div>
+</div>
+
+{% endblock %}
